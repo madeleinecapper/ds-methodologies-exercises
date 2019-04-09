@@ -6,5 +6,6 @@ def get_connection(db, user=env.user, host=env.host, pw=env.pw):
 def get_mall_data():
     df =  pd.read_sql(qry, get_connection('mall_customers'))
     df.to_csv('mall_data.csv', index=False)
+    df.set_index('customer_id', inplace=True)
     return df
 
