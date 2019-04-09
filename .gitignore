@@ -4,3 +4,4 @@ package.json
 acquire.cpython-37.pyc
 env.cpython-37.pyc
 ~/__pycache__/
+__pycache__/
