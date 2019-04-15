@@ -41,3 +41,10 @@ def bars(df, cat_cols, cont_var):
         else:
             sns.barplot(data=df, x=col, y=cont_var)
             plt.show()
+
+
+#  t-test loop with formatted printing you might want to use later: 
+# for i in range(0,3):
+#     tstat, pval = stats.ttest_ind(df[df.cluster_target == i].logerror,
+#                     df[df.cluster_target == (i+1)].logerror)
+#     print('Our t-statistic is {:.4} and the p-value is {:.10}'.format(tstat, pval))
