@@ -3,5 +3,10 @@ package.json
 .ipynb_checkpoints
 acquire.cpython-37.pyc
 env.cpython-37.pyc
-~/__pycache__/
-__pycache__/
+~/__pycache__
+__pycache__
+.DS_Store
+data/*
+.ipynb_checkpoints
+access.log
+fitbit
