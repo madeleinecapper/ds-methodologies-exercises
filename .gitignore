@@ -10,3 +10,8 @@ data/*
 .ipynb_checkpoints
 access.log
 fitbit
+zillow.csv
+the_data.csv
+customers.csv
+cohort_name_to_id.csv
+cohort_dates.csv
